@@ -1,6 +1,6 @@
 # Graphing analysis results using D3 demo
 
-In this demo 1-year estimates from the 2014 ACS (American Community Survey; from census.gov) [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml) was used for the analysis.
+In this demo the 2014 ACS (American Community Survey) data from census.gov [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml) was used for the analysis.
 
 The data set analyzed include rates of income, obesity, poverty, etc. by state. The MOE variable in the ata set is represents the "margin of error."
 
