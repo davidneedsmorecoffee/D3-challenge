@@ -14,7 +14,6 @@ var margin = {
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
-
 // Select body, append SVG area to it, and set the dimensions
 var svg = d3
   .select("#scatter")
@@ -26,8 +25,6 @@ var svg = d3
 // to the margins set in the "chartMargin" object.
 var chartGroup = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-// 16_03_12-Par_Hair_Metal_Conclusion
-// parse data
 // Retrieve data from the CSV file and execute everything below
 d3.csv("./assets/data/data.csv").then(function(healthData) {
     console.log(healthData)
