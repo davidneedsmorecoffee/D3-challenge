@@ -1,4 +1,4 @@
-# basic D3 demo 
+# Basic D3 demo 
 
 In this demo the 2014 ACS (American Community Survey) data from census.gov [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml) was used for analysis.
 
