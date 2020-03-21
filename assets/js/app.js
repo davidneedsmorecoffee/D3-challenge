@@ -86,8 +86,7 @@ d3.csv("./assets/data/data.csv").then(function(healthData) {
         .attr("font-size","12px")
         .attr("opacity", ".7");
 
-    // 16_03_09-Stu_Hair_Metal
-    // Create axes labels
+=    // Create axes labels
     // http://www.d3noob.org/2012/12/adding-axis-labels-to-d3js-graph.html
 
     // y-axis
