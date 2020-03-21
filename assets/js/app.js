@@ -1,7 +1,3 @@
-// @TODO: YOUR CODE HERE!
-
-// 16_02_03-Par_BarChart_From_CSV
-// 16_03_08-Ins_D3_Tip
 // Define SVG area dimensions
 var svgWidth = 960;
 var svgHeight = 660;
