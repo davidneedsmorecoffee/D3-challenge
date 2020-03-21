@@ -87,7 +87,6 @@ d3.csv("./assets/data/data.csv").then(function(healthData) {
         .attr("opacity", ".7");
 
     // Create axes labels
-    // http://www.d3noob.org/2012/12/adding-axis-labels-to-d3js-graph.html
 
     // y-axis
     chartGroup.append("text")
