@@ -16,14 +16,12 @@ var height = svgHeight - margin.top - margin.bottom;
 
 
 // Select body, append SVG area to it, and set the dimensions
-// 16_2_05-Ins_Intro_To_Axes
 var svg = d3
   .select("#scatter")
   .append("svg")
   .attr("height", svgHeight)
   .attr("width", svgWidth);
 
-// 16_2_05-Ins_Intro_To_Axes
 // Append a group to the SVG area and shift ('translate') it to the right and down to adhere
 // to the margins set in the "chartMargin" object.
 var chartGroup = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
