@@ -50,7 +50,6 @@ d3.csv("./assets/data/data.csv").then(function(healthData) {
     var bottomAxis = d3.axisBottom(xLinearScale);
     var leftAxis = d3.axisLeft(yLinearScale);
   
-    // 16_03_09-Stu_Hair_Metal
     // append x axis
     chartGroup.append("g")
         .style("font-size", "15px")
