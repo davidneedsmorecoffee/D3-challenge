@@ -5,3 +5,7 @@ In this demo the 2014 ACS (American Community Survey) 1-year estimates from cens
 The data set analyzed include rates of income, obesity, poverty, etc. by state. The MOE variable in the ata set is represents the "margin of error."
 
 See the `app.js` file for additional info on how the D3 figures were constructed.
+
+The example analysis focused on correlations Between Lack of Healthcare and Poverty 
+
+Overall there appears to be a positive correlation between the two variables. In other words, as the % of population living in poverty goes up, the % of population of people lacking in healthcare also seems to increase. This is unfortunately not surprising, given the increasing healthcare cost in the US.
